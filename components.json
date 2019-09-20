@@ -1,0 +1,4 @@
+{
+  "form": ["./packages/form/index.js"],
+  "list": ["./packages/list/index.js"]
+}

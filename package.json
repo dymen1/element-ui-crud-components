@@ -1,0 +1,58 @@
+{
+  "name": "element-ui-crud-components",
+  "version": "1.0.0",
+  "description": "A CRUD Component Library for Vue.js.",
+  "main": "lib/element-ui-crud-components.common.js",
+  "files": [
+    "lib",
+    "src",
+    "packages"
+  ],
+  "scripts": {
+    "dist": "webpack --config build/webpack.conf.js && webpack --config build/webpack.common.js && webpack --config build/webpack.component.js",
+    "t": "webpack --config build/webpack.conf.js",
+    "a": "webpack --config build/webpack.common.js",
+    "d": "webpack --config build/webpack.component.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dymen1/element-ui-crud-components.git"
+  },
+  "keywords": [
+    "eleme",
+    "vue",
+    "components",
+    "crud",
+    "form"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dymen1/element-ui-crud-components/issues"
+  },
+  "dependencies": {
+    "element-ui": "^2.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.0.1",
+    "vue-class-component": "^7.1.0",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "2.5.21",
+    "vue-template-es2015-compiler": "^1.6.0",
+    "vuex": "^3.1.1",
+    "vuex-class": "^0.3.2",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
